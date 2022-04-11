@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<meta charset="utf-8">
+  		<title>Login or Register - Neighborhood</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="author" content="flip.hr">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="js/validation/formValidation.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-collapse-xs navbar-expand-md fixed-top">
+	    	
+	    	<div class="container">
+		    	<a class="navbar-brand" href="#"><i class="fa fa-map-marker"></i> Neighborhood</a>
+		      	
+		      	<button class="navbar-toggler" data-toggle="collapse" data-target="#main-menu">
+		        	<span class="navbar-toggler-icon"></span>
+		      	</button>
+
+	      		<div class="collapse navbar-collapse" id="main-menu">
+	        		<ul class="navbar-nav ml-auto">
+			        	<li class="nav-item active">
+			            	<a class="nav-link" href="index.html">Home</a>
+			          	</li>
+	          			<li class="nav-item dropdown">
+					        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+					          Browse
+					        </a>
+					        <div class="dropdown-menu">
+					        	<a class="dropdown-item" href="#">Hospitals</a>
+					        	<a class="dropdown-item" href="#">Finance</a>
+					        	<a class="dropdown-item" href="#">Shopping</a>
+					          	<a class="dropdown-item" href="#">Food</a>
+					          	<a class="dropdown-item" href="#">Nightlife</a>
+					          	<a class="dropdown-item" href="#">Hotels</a>
+					        </div>
+					    </li>
+	          			<li class="nav-item">
+	            			<a class="nav-link" href="#">Submit your brand</a>
+	          			</li>
+	        		</ul>
+	      		</div><!-- .collapse -->
+      		</div><!-- .container -->
+    	</nav><!-- nav -->
+
+	    <div class="home-hero">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-md-12">
+	    				<div class="content-box">
+	    					<h2>Explore your neighborhood</h2>
+			    			<form method="GET" action="#">
+			  					<div class="form-group">
+									<input type="text" class="form-control" placeholder="What do you want to discover today?">
+									<input type="submit" class="btn btn-green" value="Search">
+			  					</div><!-- .form-group -->
+		  					</form>
+	    				</div><!-- .content-box -->
+	    			</div><!-- .col-md-12 -->
+	    		</div><!-- .row -->
+	    	</div><!-- .container -->
+	    </div><!-- .home-hero -->
+
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-6">
+    				<div class="form-box">
+    					<h3>Create an account</h3>
+    					<p>Register on our great website to become a part of your Neighborhood.</p>
+	    				<form method="POST" action="#">
+		    				<div class="form-group">
+	    						<label class="form-control-label">Your name</label>
+	    						<input type="text" class="form-control" placeholder="Please enter your full name" data-fv-notempty="true">
+		  					</div><!-- .form-group -->
+		  					<div class="form-group">
+	    						<label class="form-control-label">E-mail</label>
+	    						<input type="email" class="form-control" placeholder="Please enter your e-mail address" data-fv-notempty="true">
+		  					</div><!-- .form-group -->
+		  					<div class="form-group">
+	    						<label class="form-control-label">Password</label>
+	    						<input type="password" class="form-control" data-fv-notempty="true">
+		  					</div><!-- .form-group -->
+		  					<div class="form-check">
+							    <label class="form-check-label">
+							      <input type="checkbox" class="form-check-input">
+							      I agree to your awesome Terms of service
+							    </label>
+						  	</div><!-- .form-check -->
+						  	<div class="form-group">
+						  		<input type="submit" value="Become a member" class="btn btn-green">
+						  	</div><!-- .form-group -->
+	  					</form>
+  					</div><!-- .form-box -->
+    			</div><!-- .col-md-6 -->
+    			<div class="col-md-6">
+    				<div class="form-box">
+    					<h3>Login to your account</h3>
+    					<p>If you already a member login to your Neighborhood account.</p>
+	    				<form method="POST" action="#" class="validate">
+		  					<div class="form-group">
+	    						<label class="form-control-label">E-mail</label>
+	    						<input type="email" class="form-control" data-fv-notempty="true">
+		  					</div><!-- .form-group -->
+		  					<div class="form-group">
+	    						<label class="form-control-label">Password</label>
+	    						<input type="password" class="form-control" data-fv-notempty="true">
+		  					</div><!-- .form-group -->
+						  	<div class="form-group">
+						  		<input type="submit" value="Login" class="btn btn-green">
+						  	</div><!-- .form-group -->
+	  					</form>
+  					</div><!-- .form-box -->
+    			</div><!-- .col-md-6 -->
+			</div><!-- .row -->
+		</div><!-- .container -->
+
+    	
+
+
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/tether.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+			
+	</body>
+</html>
